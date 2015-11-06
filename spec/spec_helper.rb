@@ -4,6 +4,7 @@ require 'capybara/rspec'
 require './app/app'
 require 'database_cleaner'
 require 'web_helpers'
+require 'sinatra/flash'
 
 
 Capybara.app = BookmarkManager
@@ -17,7 +18,7 @@ RSpec.configure do |config|
     DatabaseCleaner.clean_with(:truncation)
   end
 
-  config.before(:each) do 
+  config.before(:each) do
     DatabaseCleaner.start
   end
 
