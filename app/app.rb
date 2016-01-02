@@ -83,7 +83,7 @@ class BookmarkManager < Sinatra::Base
     session[:user_id] = nil
     flash.keep[:notice] = 'Goodbye!'
     redirect to '/links'
-  end
+  end 
 
   run! if app_file == $0
 end
