@@ -1,23 +1,29 @@
 Bookmark Manager
+---------------
 
+Installation:
+
+```sh
+$ git clone https://github.com/d9nny/bookmark_manager
+```
+Navigate to root directory of the project 
+```sh
+$ bundle 
+$ createdb bookmark_manager_test
+$ createdb bookmark_manager_development
+$ rake db:auto_migrate
+```
+To run tests 
+```sh
+$ rspec
+```
+To run locally 
+```sh
+$ ruby ./app/app.rb
+```
 To do:
 - HTML - add navigation etc
 - CSS - styling
-
-Runnings tests & running locally:
-
-Fork this repo
-From command line:
-	Clone fork in desired location
-	Navigate to root directory of the project 
-	Run 'bundle' 
-	Run 'psql' 
-	Run 'create database "bookmark_manager_test";'
-	Run 'create database "bookmark_manager_development";'
-	Run '\q'
-	Run 'rake db:auto_migrate'
-	To run tests 'rspec'
-	To run locally 'ruby ./app/app.rb'
 
 User Stories
 
