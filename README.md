@@ -4,6 +4,21 @@ To do:
 - HTML - add navigation etc
 - CSS - styling
 
+Runnings tests & running locally:
+
+Fork this repo
+From command line:
+	Clone fork in desired location
+	Navigate to root directory of the project 
+	Run 'bundle' 
+	Run 'psql' 
+	Run 'create database "bookmark_manager_test";'
+	Run 'create database "bookmark_manager_development";'
+	Run '\q'
+	Run 'rake db:auto_migrate'
+	To run tests 'rspec'
+	To run locally 'ruby ./app/app.rb'
+
 User Stories
 
 As a user
