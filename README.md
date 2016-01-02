@@ -1,5 +1,9 @@
 Bookmark Manager
 
+To do:
+- HTML - add navigation etc
+- CSS - styling
+
 User Stories
 
 As a user
